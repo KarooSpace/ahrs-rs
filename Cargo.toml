@@ -24,7 +24,7 @@ name = "ahrs"
 harness = false
 
 [dependencies.nalgebra]
-version = "0.32"
+version = "0.32.3"
 features = ["libm-force"]
 default-features = false
 
@@ -43,4 +43,4 @@ version = "0.8"
 version = "0.5"
 
 [dev-dependencies.criterion]
-version = "0.4"
+version = "0.5"
